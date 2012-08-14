@@ -12,6 +12,15 @@ body {
   color: #333333;
   background: #ffffff;
 }
+a:link,
+a:visited,
+a:hover {
+  color: #45a12a;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
 .all {
   background: transparent;
   height: 100%;
@@ -19,26 +28,55 @@ body {
   margin: 0px;
 }
 .outer-wrapper {
-  background: url(../images/bg.gif) repeat-x;
-  border: 1px solid blue;
-  width: 50%;
-  height: 80%;
+  border: 0px solid blue;
 }
 .site {
-  width: 649px;
-  margin: 50% 50%;
-  border: 1px solid red;
+  margin: 0px auto 0px auto;
+  vertical-align: top;
+  padding: 300px 0px 0px 0px;
 }
-.wrapper p {
+.site-impressum {
+  margin: 0px auto 0px auto;
+  vertical-align: top;
   padding: 0px 0px 0px 0px;
-  font-size: 90%;
 }
-.wrapper a:link,
-.wrapper a:visited,
-.wrapper a:hover {
-  color: #45a12a;
-  text-decoration: none;
+.left {
+  background: url(../images/bg.gif) repeat-x;
+  border: 0px solid red;
+  margin: 0px 0px 0px 0px;
+  width: 25%;
+  vertical-align: top;
 }
-.wrapper a:hover {
-  text-decoration: underline;
+.site-impressum .left {
+  background: transparent;
+  border: 0px solid red;
+  margin: 0px 0px 0px 0px;
+  width: 25%;
+  vertical-align: top;
+}
+.right {
+  border: 0px solid black;
+  width: 25%;
+  vertical-align: top;
+}
+.mitte {
+  width: 50%;
+  margin: 0px auto;
+  border: 0px solid red;
+  vertical-align: top;
+  text-align: left;
+}
+.mitte p {
+  padding: 0px 0px 0px 0px;
+  font-size: 0.8em;
+  line-height: 1.6em;
+}
+.fields {
+  margin: 10px 0px 0px 0px;
+  color: #45a22b;
+  font-size: 0.9em;
+  line-height: 2em;
+}
+.black {
+  color: #333333;
 }
